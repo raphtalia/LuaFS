@@ -1,1 +1,4 @@
 std = "lua51"
+
+[config]
+shadowing = { ignore_pattern = "^(_|self)" }
